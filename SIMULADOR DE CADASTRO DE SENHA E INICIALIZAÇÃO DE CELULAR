@@ -1,0 +1,13 @@
+login_secreto = ['Diego', 'diego', 'Diego', 'diego']
+senha_secreta = '12345'
+
+login = input('Digite seu acesso: ') 
+senha = input('Digite sua senha: ')
+  
+if (login in login_secreto):
+    if (senha == senha_secreta):
+        print('Bem vindo.') 
+    else:
+        print('Senha incorreta, restam 2 tentativas.') 
+else:
+    print('Celular bloqueado.') 
